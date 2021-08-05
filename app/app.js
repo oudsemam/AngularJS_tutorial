@@ -19,7 +19,9 @@
 
     .then(onUserComplete, onError);
 
-    $scope.message = "hello Angular!";
+    //default username search for.
+    $scope.username = "angular";
+    $scope.message = "GitHub Viewer for {{username}}";
     
   };
 
