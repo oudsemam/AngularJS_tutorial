@@ -23,5 +23,5 @@
     
   };
 
-  app.controller("mainController", mainController);
+  app.controller("mainController", ["$scope", "$http", mainController]);
 })();
